@@ -75,9 +75,48 @@ table {
   font-style: normal;
 }
 
-p {
-  font-family: 'note_thisregular';
-  font-size: 1.5em;
-  line-height: 1.5em;
-  margin: 0;
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+em {
+  font-style: italic;
+}
+
+#container-left {
+  border: 1px solid black;
+  width: 45%;
+  height: 100%;
+  background-image: url(../assets/jeep.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#container-left #banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+}
+
+#container-left #banner #logo {
+  opacity: 1;
+  color: white;
+}
+
+#container-left #banner img {
+  height: 150px;
+  width: 125px;
+  opacity: 1;
+}
+
+#container-right {
+  border: 1px solid green;
+  height: 100%;
+  width: 65%;
 }
