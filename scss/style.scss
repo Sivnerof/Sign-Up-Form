@@ -14,7 +14,6 @@ em {
 }
 
 #container-left {
-    border: 1px solid black;
     width: 45%;
     height: 100%;
     background-image: url(../assets/jeep.jpg);
@@ -23,25 +22,29 @@ em {
 
     #banner {
         display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15px;
         width: 100%;
-        background-color: black;
-        opacity: 0.5;
+        background-color: #1A1914;
+        opacity: 0.6;
 
         #logo{
             opacity: 1;
             color: white;
+            font-size: 48px;
+            font-family: 'note_thisregular';
         }
 
         img {
-            height: 150px;
-            width: 125px;
+            height: 100px;
+            width: 100px;
             opacity: 1;
         }
     }
 }
 
 #container-right {
-    border: 1px solid green;
     height: 100%;
     width: 65%;
 }
