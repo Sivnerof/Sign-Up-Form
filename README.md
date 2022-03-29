@@ -10,4 +10,8 @@ View project requirements [HERE](https://www.theodinproject.com/lessons/node-pat
 
 ---
 ## Attributions
-* [Form Icons](https://www.flaticon.com/free-icons/education "Flaticon Website") Created By Freepik - Flaticon
+* [Form Icons](https://www.flaticon.com/free-icons/education "Flaticon Website") By Freepik - Flaticon
+
+* [Flying Car Logo](https://thenounproject.com/icon/flying-car-2838655/ "Noun Project Website") By Vincence Studio from Noun Project
+
+* [Jeep Image](https://unsplash.com/photos/QCjo1nek9_M "Unsplash Website") By [Cash Macanaya](https://unsplash.com/@graphics_cash "Creators Profile") from Unsplash

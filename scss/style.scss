@@ -1,4 +1,20 @@
-h1 {
-    background-color: blue;
-    color: red;
+@font-face {
+    font-family: 'note_thisregular';
+    src: url('../assets/fonts/Note_this-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'vag-handwrittenvaghandwritten';
+    src: url('../assets/fonts/VAG-HandWritten-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'rock_saltregular';
+    src: url('../assets/fonts/RockSalt-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
