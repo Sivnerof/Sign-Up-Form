@@ -1,20 +1,12 @@
-@font-face {
+/* Meyers Reset */
+@import 'meyers-reset';
+
+/* Font Imports */
+@import 'fonts';
+
+p {
     font-family: 'note_thisregular';
-    src: url('../assets/fonts/Note_this-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'vag-handwrittenvaghandwritten';
-    src: url('../assets/fonts/VAG-HandWritten-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'rock_saltregular';
-    src: url('../assets/fonts/RockSalt-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin: 0;
 }
