@@ -136,14 +136,14 @@ em {
           justify-content: space-between;
   height: 100%;
   width: 65%;
-  padding-left: 40px;
-  background-color: white;
+  background-color: #F9FAFB;
 }
 
 #container-right > div {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
+  padding: 40px;
 }
 
 #container-right #filler-text-container {
@@ -165,4 +165,10 @@ em {
 
 #container-right #filler-text-container #second-para {
   padding-top: 15px;
+}
+
+#container-right #form-container {
+  background-color: #FFFFFF;
+  -webkit-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.2);
 }

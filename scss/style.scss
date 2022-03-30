@@ -50,11 +50,11 @@ em {
     justify-content: space-between;
     height: 100%;
     width: 65%;
-    padding-left: 40px;
-    background-color: white;
+    background-color: #F9FAFB;
 
     & > div {
         flex: 1;
+        padding: 40px;
     }
 
     #filler-text-container {
@@ -69,5 +69,10 @@ em {
         #second-para {
             padding-top: 15px;
         }
+    }
+
+    #form-container {
+        background-color: #FFFFFF;
+        box-shadow: 1px 3px 5px rgba(0,0,0,0.2);
     }
 }

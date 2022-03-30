@@ -40,25 +40,33 @@
 
         <div id="form-container">
             <h2>Let's Do This!</h2>
-            <form action="#">
+            <form action="#" method="get">
                 <!--remember to add regex for these-->
-                <label for="first-name">First Name</label>
-                <input type="text" name="first-name" id="first-name" placeholder="First Name" required>
-                <label for="last-name">Last Name</label>
-                <input type="text" name="last-name" id="last-name" placeholder="Last Name" required>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" placeholder="johndoe@example.com" required>
-                <label for="phone-number">Phone Number</label>
-                <input type="tel" name="phone-number" id="phone-number" placeholder="123-456-7890" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
-                <label for="password">Password</label>
-                <input type="password" name="password" id="password" minlength="8" required>
-                <label for="confirm-password">Confirm Password</label>
-                <input type="password" name="confirm-password" id="confirm-password" minlength="8" required>
+                <div>
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first-name" id="first-name" placeholder="First Name" minlength="1" maxlength="32" pattern="[A-Za-z]{1,32}" title="Please enter only alphabetical characters" required>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last-name" id="last-name" placeholder="Last Name" minlength="1" maxlength="32" pattern="[A-Za-z]{1,32}" title="Please enter only alphabetical characters" required>
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="johndoe@example.com" minlength="1" maxlength="32" required>
+                    <label for="phone-number">Phone Number</label>
+                    <input type="tel" name="phone-number" id="phone-number" placeholder="123-456-7890" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Please enter phone number in the following format: 555-444-7777" required>
+                </div>
+                <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" minlength="8" maxlength="32" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" title="Passwords must contain atleast 1 symbol, 1 uppercase, 1 lowercase and 1 number and be between 8 and 32 characters" required>
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" name="confirm-password" id="confirm-password" minlength="8" maxlength="32" pattern="(?=^.{8,}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Z])(?=.*[a-z]).*$" title="Passwords must contain atleast 1 symbol, 1 uppercase, 1 lowercase and 1 number and be between 8 and 32 characters" required>
+                </div>
         </div>
         
         <div>
             <input type="submit" value="Create Account">
+            <input type="reset" value="Start Over">
             </form>
+            <p>Already have an account? Log In</p>
         </div>
     </div>
 </body>
