@@ -180,6 +180,12 @@ em {
   padding: 25px;
 }
 
+#container-right #form-container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 #container-right #button-container input {
   background-color: #2A2A25;
   border: none;
