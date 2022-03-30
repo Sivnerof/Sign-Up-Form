@@ -78,12 +78,13 @@ em {
             padding-bottom: 10px;
         }
 
-        & div {
-            padding: 25px;
-        }
-
         form {
             display: flex;
+            flex-direction: column;
+        }
+
+        & div {
+            padding: 25px;
         }
     }
 

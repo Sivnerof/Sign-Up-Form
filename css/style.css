@@ -176,14 +176,18 @@ em {
   padding-bottom: 10px;
 }
 
-#container-right #form-container div {
-  padding: 25px;
-}
-
 #container-right #form-container form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#container-right #form-container div {
+  padding: 25px;
 }
 
 #container-right #button-container input {
