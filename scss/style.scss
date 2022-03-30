@@ -78,13 +78,20 @@ em {
             padding-bottom: 10px;
         }
 
-        form {
+        & > form {
             display: flex;
             flex-direction: column;
-        }
 
-        & div {
-            padding: 25px;
+            & > div {
+                width: 100%;
+                display: flex;
+
+                & > div {
+                    display: flex;
+                    flex-direction: column;
+                    padding: 16px;
+                }
+            }
         }
     }
 
